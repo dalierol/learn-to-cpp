@@ -18,24 +18,24 @@ int main(){
 	
 	if(operation=='+'){
 		result = number1 + number2;
-		cout<<"Fist number "<<operation<<" second number result: "<<result<<endl;
+		cout<<"First number "<<operation<<" second number result: "<<result<<endl;
 	}
 	else if(operation=='-'){
 		result = number1 - number2;
-		cout<<"Fist number "<<operation<<" second number result: "<<result<<endl;
+		cout<<"First number "<<operation<<" second number result: "<<result<<endl;
 	}
 	else if(operation=='*'){
 		result = number1 * number2;
-		cout<<"Fist number "<<operation<<" second number result: "<<result<<endl;
+		cout<<"First number "<<operation<<" second number result: "<<result<<endl;
 	}
 	else if(operation=='/'){
 	
 		if(number2!=0){
 			result = number1 / number2;
-			cout<<"Fist number "<<operation<<" second number result: "<<result<<endl;
+			cout<<"First number "<<operation<<" second number result: "<<result<<endl;
 		}
 		else 
-			cout<<"error: Devicion by zero"<<endl;
+			cout<<"error: Division by zero"<<endl;
     }
     else 
     	cout<<"Invalid input"<<endl;
